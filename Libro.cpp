@@ -15,5 +15,18 @@ int main(){
     cout << "Ingrese la cantidad de libros: ";
     cin >> n;
     cin.ignore();
+
+    for(int i = 0; i < n; i++){
+        cout << "\nlibro " << i + 1 << '\n';
+        cout << "Titulo: ";
+        getline(cin, libros[i].titulo);
+        cout << "Autor: ";
+        getline(cin, libros[i].autor);
+        cout << "Editorial: ";
+        getline(cin, libros[i].editorial);
+        cout << "Anio de publicacion: ";
+        cin >> libros[i].anioPublicacion;
+        cin.ignore();
+    }
     return 0;
 }
