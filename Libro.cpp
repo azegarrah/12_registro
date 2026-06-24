@@ -28,5 +28,14 @@ int main(){
         cin >> libros[i].anioPublicacion;
         cin.ignore();
     }
+
+    cout << "\nLISTADO DE LIBROS REGISTRADOS\n";
+    for(int i = 0; i < n; i++){
+        cout << "\nLibro " << i + 1 << '\n';
+        cout << "Titulo: " << libros[i].titulo << '\n';
+        cout << "Autor: " <<  libros[i].autor << '\n';
+        cout << "Editorial: " << libros[i].editorial << '\n';
+        cout << "Anio: " <<  libros[i].anioPublicacion << '\n';
+    }
     return 0;
 }
