@@ -10,10 +10,10 @@ struct libro{
 };
 
 int main(){
-
-
-
-
-
+    int n;
+    libro libros[100];
+    cout << "Ingrese la cantidad de libros: ";
+    cin >> n;
+    cin.ignore();
     return 0;
 }
