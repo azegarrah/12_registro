@@ -8,3 +8,12 @@ struct libro{
     string editorial;
     int anioPublicacion;
 };
+
+int main(){
+
+
+
+
+
+    return 0;
+}
