@@ -27,5 +27,8 @@ int main(){
             menor = i;
         }
     }
+    cout << emp[mayor].nombre << " ";
+    cout << emp[mayor].sexo << " ";
+    cout << emp[mayor].sueldo << '\n';
     return 0;
 }
