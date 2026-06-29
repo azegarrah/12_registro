@@ -16,6 +16,7 @@ int main(){
         cin >> emp[i].sexo;
         cin >> emp[i].sueldo;
     }
+
     int mayor = 0;
     int menor = 0;
     for(int i = 1; i < n; i++){
