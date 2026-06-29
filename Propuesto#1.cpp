@@ -16,5 +16,15 @@ int main(){
         cin >> emp[i].sexo;
         cin >> emp[i].sueldo;
     }
+    int mayor = 0;
+    int menor = 0;
+    for(int i = 1; i < n; i++){
+        if(emp[i].sueldo > emp[mayor].sueldo){
+            mayor = i;
+        }
+        if(emp[i].sueldo < emp[menor].sueldo){
+            menor = i;
+        }
+    }
     return 0;
 }
