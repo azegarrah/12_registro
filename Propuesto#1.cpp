@@ -30,5 +30,9 @@ int main(){
     cout << emp[mayor].nombre << " ";
     cout << emp[mayor].sexo << " ";
     cout << emp[mayor].sueldo << '\n';
+
+    cout << emp[menor].nombre << " ";
+    cout << emp[menor].sexo << " ";
+    cout << emp[menor].sueldo << '\n';
     return 0;
 }
