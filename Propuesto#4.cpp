@@ -21,5 +21,18 @@ int main(){
     }
     string paisBuscado;
     cin >> paisBuscado;
+
+    int mayor = -1;
+    for(int i = 0; i < n; i++){
+        if(atl[i].pais == paisBuscado){
+            cout << atl[i].nombre << " ";
+            cout << atl[i].disciplina << " ";
+            cout << atl[i].medallas << '\n';
+
+            if(mayor == -1 || atl[i].medallas > atl[mayor].medallas){
+                mayor = i;
+            }
+        }
+    }
     return 0;
 }
