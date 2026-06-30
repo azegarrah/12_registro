@@ -18,5 +18,7 @@ int main(){
         cin >> per[i].mes;
         cin >> per[i].anio;
     }
+
+     int mesBuscado;
     return 0;
 }
