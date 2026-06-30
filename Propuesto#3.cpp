@@ -7,3 +7,10 @@ struct Persona{
     int mes;
     int anio;
 };
+int main(){
+    int n;
+    cin >> n;
+    Persona per[n];
+
+    return 0;
+}
