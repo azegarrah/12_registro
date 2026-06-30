@@ -12,6 +12,11 @@ int main(){
     int n;
     cin >> n;
     Atleta atl[n];
-    
+    for(int i = 0; i < n; i++){
+        cin >> atl[i].nombre;
+        cin >> atl[i].pais;
+        cin >> atl[i].disciplina;
+        cin >> atl[i].medallas;
+    }
     return 0;
 }
