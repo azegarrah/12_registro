@@ -27,5 +27,12 @@ int main(){
 
     cout << mayores << '\n';
     cout << promedio << '\n';
+    
+    for(int i = 0; i < n; i++){
+        cout << per[i].nombre << " ";
+        cout << per[i].dni << " ";
+        cout << per[i].edad << '\n';
+    }
+
     return 0;
 }
