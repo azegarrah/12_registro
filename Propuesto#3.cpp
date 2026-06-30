@@ -19,6 +19,11 @@ int main(){
         cin >> per[i].anio;
     }
 
-     int mesBuscado;
+    int mesBuscado;
+    do{
+        cin >> mesBuscado;
+
+    } while(mesBuscado != 0);
+
     return 0;
 }
