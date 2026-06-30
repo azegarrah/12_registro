@@ -34,6 +34,9 @@ int main(){
             }
         }
     }
-    if(mayor != -1)
+    if(mayor != -1){
+        cout << atl[mayor].nombre << " ";
+        cout << atl[mayor].medallas << '\n';
+    }
     return 0;
 }
