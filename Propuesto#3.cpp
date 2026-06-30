@@ -12,5 +12,11 @@ int main(){
     cin >> n;
     Persona per[n];
 
+    for(int i = 0; i < n; i++){
+        cin >> per[i].nombre;
+        cin >> per[i].dia;
+        cin >> per[i].mes;
+        cin >> per[i].anio;
+    }
     return 0;
 }
