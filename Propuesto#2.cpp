@@ -23,5 +23,9 @@ int main(){
             mayores++;
         }
     }
+    double promedio = (double)suma / n;
+
+    cout << mayores << '\n';
+    cout << promedio << '\n';
     return 0;
 }
