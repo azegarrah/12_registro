@@ -34,5 +34,6 @@ int main(){
             }
         }
     }
+    if(mayor != -1)
     return 0;
 }
