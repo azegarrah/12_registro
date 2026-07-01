@@ -27,6 +27,9 @@ int main(){
     for(int j = 0; j < 12; j++){
         maxVentas = maxVentas + E[0].ventas;
     }
+    for(int i = 1; i < n; i++){
+        int suma = 0;
+    }
 
     return 0;
 }
