@@ -24,6 +24,9 @@ int main(){
     }
     int mayor = 0;
     int maxVentas = 0;
+    for(int j = 0; j < 12; j++){
+        maxVentas = maxVentas + E[0].ventas;
+    }
 
     return 0;
 }
