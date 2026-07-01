@@ -22,6 +22,8 @@ int main(){
         }
         cin >> E[i].salario;
     }
+    int mayor = 0;
+    int maxVentas = 0;
 
     return 0;
 }
