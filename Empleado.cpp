@@ -29,6 +29,14 @@ int main(){
     }
     for(int i = 1; i < n; i++){
         int suma = 0;
+
+        for(int j = 0; j < 12; j++){
+            suma = suma + E[i].ventas;
+        }
+        if(suma > maxVentas){
+            maxVentas = suma;
+            mayor = i;
+        }
     }
 
     return 0;
