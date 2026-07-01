@@ -16,6 +16,10 @@ int main(){
     for(int i = 0; i < n; i++){
         cin >> E[i].numero;
         cin >> E[i].nombres;
+
+        for(int j = 0; j < 12; j++){
+            cin >> E[i].ventas;
+        }
     }
 
     return 0;
