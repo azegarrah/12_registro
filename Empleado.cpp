@@ -7,3 +7,11 @@ struct Empleado{
     int ventas;
     double salario;    
 };
+
+int main(){
+    int n;
+    cin >> n;
+    Empleado E[50];    
+
+    return 0;
+}
