@@ -20,6 +20,7 @@ int main(){
         for(int j = 0; j < 12; j++){
             cin >> E[i].ventas;
         }
+        cin >> E[i].salario;
     }
 
     return 0;
